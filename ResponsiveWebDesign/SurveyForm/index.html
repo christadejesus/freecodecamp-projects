@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Survey Form, Website Mockup">
+    <meta name="author" content="Christa DeJesus">
+    <title>Survey Form | Christa DeJesus</title>
+    <link rel="stylesheet" href="./main.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="component">
+            <header class="header">
+                <h1 id="title">Creative Living Survey Form</h1>
+                <p id="description">Thank you for helping us get to know you better!</p>
+            </header>
+            <form id="survey-form" action="" target="_blank">
+                <label for="name" id="name-label">Name</label><br>
+                <input type="text" name="name" class="input" id="name" placeholder="Your Name" required /><br>
+                <label for="email" id="email-label">Email</label><br>
+                <input type="email" name="email" class="input" id="email" placeholder="Your Email" required /><br>
+                <label for="number" id="number-label">Age</label><br>
+                <input type="number" name="name" class="input" id="number" placeholder="Age" min="5" max="110" /><br>
+                <label for="dropdown">How did you hear about us?</label>
+                <select name="dropdown" class="input" id="dropdown">
+                    <option value="personal referral">Personal Referral</option>
+                    <option value="Online Group">Online Group</option>
+                    <option value="Internet Search">Internet Search</option>
+                    <option value="Radio">Radio</option>
+                    <option value="Podcast">Podcast</option>
+                    <option value="Blog">Blog</option>
+                    <option value="Other">Other</option>
+                </select><br>
+                <fieldset>
+                    <legend>What type of creative describes you best?:</legend>
+                    <div>
+                        <input type="radio" name="category" id="beginner" value="Beginner" />
+                        <label for="beginner"> Beginner</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="category" id="enthusiast" value="Enthusiast">
+                        <label for="enthusiast"> Enthusiast</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="category" id="professional" value="Professional" />
+                        <label for="professional"> Professional</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="category" id="lifestyle" value="Lifestyle" />
+                        <label for="lifestyle"> Lifestyle</label>
+                    </div>
+                </fieldset><br>
+                <fieldset>
+                    <legend>Your creative interests:</legend>
+                    <div>
+                        <input type="checkbox" name="graphicdesign" id="graphicdesign" value="Graphic Design" />
+                        <label for="graphicdesign"> Graphic Design</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="writing" id="writing" value="Writing" />
+                        <label for="writing"> Writing</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="photography" id="photography" value="Photography" />
+                        <label for="photography"> Photography</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="textiles" id="textiles" value="Textiles" />
+                        <label for="textiles"> Textiles</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="webdevelopment" id="webdevelopment" value="Web Development" />
+                        <label for="development"> Web Development</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="webdesign" id="webdesign" value="Web Design" />
+                        <label for="webdesign"> Web Design</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="crafting" id="crafting" value="Crafting" />
+                        <label for="crafting"> Crafting</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="music" id="music" value="Music" />
+                        <label for="music"> Music</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="painting" id="painting" value="Painting" />
+                        <label for="painting"> Painting</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="culinaryarts" id="culinaryarts" value="Culinary Arts" />
+                        <label for="culinaryarts"> Culinary Arts</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="dance" id="dance" value="Dance" />
+                        <label for="dance"> Dance</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="other" id="other" value="Other" />
+                        <label for="other"> Other</label>
+                    </div>
+                </fieldset>
+                <br>
+                <label for="message">Please use this space to share anything you would like to add.</label>
+                <textarea placeholder="Type your message here." class="input" name="message"
+                    id="message"></textarea><br>
+                <input type="submit" value="Submit" class="btn" id="submit" />
+            </form>
+        </div>
+        <footer>
+            <p class="credit">Developer: <a href="https://christadejesus.com">Christa DeJesus</a><br>Photo credit:
+                Birmingham Museums Trust on <a href="https://unsplash.com/photos/9pOXS0ZGPDM">Unsplash</a></p>
+        </footer>
+    </div>
+</body>
+
+</html>
