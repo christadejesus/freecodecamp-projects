@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Landing Page, Website Mockup">
+    <meta name="author" content="Christa DeJesus">
+    <title>Product Landing Page | Christa DeJesus</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <header id="header">
+        <nav id="nav-bar">
+            <div class="logo">
+                <img src="assets/logo.svg" alt="logo" id="header-img" />
+            </div>
+            <div class="nav-links-list">
+                <a href="#inventory" class="nav-link">inventory</a>
+                <a href="#visit" class="nav-link">visit</a>
+                <a href="#subscribe" class="nav-link">subscribe</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h1>Unleash your<br><span class="accent-span">power</span></h1>
+            <div class="btn hero-btn">Search Inventory</div>
+        </section>
+        <section class="specials">
+            <span>Drive your dream from $299/month <a href="#inventory">FIND YOURS NOW</a></span>
+        </section>
+        <section class="standard-section" id="inventory">
+            <div class="product-card">
+                <h2>Power</h2>
+                <img src="assets/camaro_blue_1.jpg" alt="powerful blue camero" />
+            </div>
+            <div class="product-card">
+                <h2>Luxury</h2>
+                <img src="assets/mercedes_1.jpg" alt="luxury mercedes" />
+            </div>
+            <div class="product-card">
+                <h2>Leisure</h2>
+                <img src="assets/jeep_red_1.jpg" alt="leisure red jeep" />
+            </div>
+        </section>
+        <section class="standard-section accent-section" id="visit">
+            <h2>Let's go for a drive</h2>
+            <p>Call us today to schedule your next test drive or stop by to speak with our knowledgeable staff.</p>
+            <h3>Business Hours</h3>
+            <p class="hours">Monday-Friday: 9-6pm<br />
+                Saturday: 10-5pm<br />
+                Sunday: By appointment</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/jjwnAqUfnI4"
+                title="YouTube video player" id="video" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </section>
+        <section class="standard-section" id="subscribe">
+            <h2>Be First in Line!</h2>
+            <p>Get the latest updates straight to your inbox so you never miss out on your dream car.
+            <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
+                <input type="email" name="email" id="email" placeholder="Type your email to subscribe" />
+                <input type="submit" name="submit" class="btn" id="submit" value="Subscribe" />
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Development by Christa DeJesus.<br /><a href="https://christadejesus.com" id="home-link">Visit
+                christadejesus.com</a> for
+            more
+            information and projects.</p>
+    </footer>
+</body>
+
+</html>
