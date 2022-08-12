@@ -1,0 +1,164 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+/* MAIN STYLES */
+main {
+  padding: 40px 20px;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  font-family: "Montserrat", san-serif;
+  font-size: 1.6rem;
+}
+h1, h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.h1-span {
+  font-size: 1.4rem;
+}
+
+h2 {
+  font-size: 1.6rem;
+  background: rgba(236,186,27,.9);
+  padding: 20px;
+  border-radius: 3px;
+  margin-top: 20px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+a {
+  color: #730502;
+  font-weight: 500;
+  text-decoration: none;
+}
+a:hover {
+  color: #730502;
+  text-decoration: underline;
+  opacity: 90%;
+}
+
+/* HEADER */
+.header {
+  width: 100%;
+}
+
+.fig-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(#730502, #3e0100);
+  padding: 20px;
+  border-radius: 3px;
+}
+figcaption {
+  position: absolute;
+  font-size: 1rem;
+  color: #fff;
+  opacity: 40%;
+  line-height: 2;
+}
+figcaption a {
+  color: #fff;
+}
+figcaption a:hover {
+  color: #fff;
+  opacity: 60%;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* INFO SECTION */
+.info-container {
+  max-width: 800px;
+}
+.heading-container {
+  background: url("https://images.pexels.com/photos/7181924/pexels-photo-7181924.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-position: center;
+  background-size: cover;
+  border-radius: 3px;
+}
+hr {
+  opacity: 30%;
+  margin: 0px 0px 20px 0px;
+}
+.quote {
+  padding: 20px 0px;
+}
+
+/* MORE INFO SECTION */
+.more-info-container {
+  background: url("https://images.pexels.com/photos/7181924/pexels-photo-7181924.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"); 
+  background-position: center;
+  background-size: cover;
+  border-radius: 3px;
+  max-width: 800px;
+}
+.overlay {
+  background: rgba(236,186,27,.9);
+  height: 100%;
+  padding: 10px;
+  border-radius: 3px;
+}
+.more-info-container p {
+  background: #fff;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 3px;
+}
+
+/* CREDIT */
+.credit {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 1.8px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+@media screen and (min-width: 700px) {
+  h1 {
+    font-size: 2.4rem;
+  }
+  .h1-span, h2 {
+    font-size: 1.8rem;
+  }
+}
+
+
+@media screen and (min-width: 900px) {
+  h1 {
+    font-size: 3rem;
+  }
+  .h1-span, h2 {
+    font-size: 2rem;
+  }
+}
