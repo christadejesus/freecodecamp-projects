@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Technical Documentation">
+    <meta name="author" content="Christa DeJesus">
+    <title>Technical Documentation | Christa DeJesus</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <div id="container">
+        <nav id="navbar">
+            <header id="nav-header">
+                <h1>The HTML &ltHead&gt Element</h1>
+            </header>
+            <div id="nav-links">
+                <a href="#purpose" class="nav-link">Purpose of the &lthead&gt Element</a>
+                <a href="#location" class="nav-link">Location of the &lthead&gt Element</a>
+                <a href="#title" class="nav-link">&lttitle&gt Tag</a>
+                <a href="#meta" class="nav-link">&ltmeta&gt Tags</a>
+                <a href="#link" class="nav-link">&ltlink&gt Tags</a>
+                <a href="#script" class="nav-link">&ltscript&gt Tags</a>
+                <a href="#section_7" class="nav-link">Section 7</a>
+                <a href="#section_8" class="nav-link">Section 8</a>
+                <a href="#section_9" class="nav-link">Section 9</a>
+                <a href="#section_10" class="nav-link">Section 10</a>
+                <a href="#section_11" class="nav-link">Section 11</a>
+                <a href="#resources" class="nav-link">Additional Resources</a>
+        </nav>
+        <main id="main-doc">
+            <section class="main-section" id="purpose">
+                <header>
+                    <h2><span class="h2-accent-4">Purpose</span> of the &lthead&gt Element</h2>
+                </header>
+                <p>The contents of the
+                    &lthead&gt element contain data, or
+                    metadata, about the HTML document itself. This metadata does not show up as elements displayed
+                    on the page, but does hold information that helps the web browser correctly display the HTML
+                    document. </p>
+                <p>Some types of metadata included in the &lthead&gt element can also be used for SEO, or Search
+                    Engine Optimization.</p>
+                <p>There are various types of metadata that you can learn more about by visiting the <a
+                        href="#resources">resources</a> at
+                    the bottom of this document, but common
+                    types include data about the document title, character set, styles, and scripts.
+                </p>
+            </section>
+            <section class="main-section" id="location">
+                <header>
+                    <h2><span class="h2-accent-2">Location</span> of the HTML &lthead&gt Element</h2>
+                </header>
+                <p>The &lthead&gt element is the container placed between the opening &lthtml&gt tag and the opening
+                    &ltbody&gt tag in an HTML
+                    document.</p>
+                <p> There is only one &lthead&gt element per page.</p>
+
+                <pre><code>//Location of the &lthead&gt tag
+
+&lt!DOCTYPE html&gt
+&lthtml lang="en"&gt
+
+    &lthead&gt 
+        &ltmeta charset="UTF-8"&gt
+        //...
+    &lt/head&gt 
+
+    &ltbody&gt
+        //...
+    &ltbody&gt
+&lt/html&gt</code></pre>
+                <a href="#top" class="btn">Back to top</a>
+            </section>
+            <section class="main-section" id="title">
+                <header>
+                    <h2><span class="h2-accent-1">&lttitle&gt</span> Tag</h2>
+                </header>
+                <p>The &lttitle&gt tag placed inside the &lthead&gt holds the title of the HTML document. This is
+                    not the same as an &lth1&gt element, which is displayed on the page. This title does not display
+                    directly on the page, however it will display as the title of the document to be saved as a
+                    bookmark in the browser, in the top browser tab, and when saved as a shortcut on a laptop or
+                    mobile device.</p>
+                <p>The contents of the title are also displayed in search engine results and used in SEO.</p>
+                <pre><code>&lthead&gt
+    &lttitle&gtMy Awesome Title&lt/title&gt
+&lt/head&gt</code></pre>
+                <a href="#top" class="btn">Back to top</a>
+            </section>
+            <section class="main-section" id="meta">
+                <header>
+                    <h2><span class="h2-accent-3">&ltmeta&gt</span> Tags</h2>
+                </header>
+                <p>Although all of the &lthead&gt elements described here are considered metadata, HTML also has a
+                    &ltmeta&gt tag.</p>
+                <p>This tag can be used for many purposes, however the most common and important to remember is the
+                    character set:</p>
+                <pre><code>&lthead&gt
+    &ltmeta charset="utf-8"&gt
+&lt/head&gt</code></pre>
+                <p>Setting the character set, or character encoding, specifies the character set the HTML document
+                    is allowed to use. The utf-8 is a universal character set that can handle a wide variety of
+                    human languages and helps insure your page will universally appear as intended.</p>
+                <p>Here are a few examples of other types of information you may want to consider using in
+                    combination with the &ltmeta&gt tag:</p>
+                <pre><code>&lthead&gt
+    &ltmeta name="author"
+    content="Jane Doe"&gt
+
+    &ltmeta name="description"
+    content="You write the actual
+    content you want displayed in
+    search engine results here."&gt
+
+    &ltmeta name="keywords"
+    content="keywords, for, search,
+    engine, optimization, here"&gt
+&lt/head&gt</code></pre>
+                <h3>Special Note on Metadata for Social Media</h3>
+                <p>There are many other uses for the &ltmeta&gt tag, but one especially helpful protocol to
+                    mention is the use of Open Graph Data. This protocol was developed by Facebook and
+                    allows for a way to nicely display HTML website metadata for social media.</p>
+                <p>You may have noticed the effects of using OGD when sharing a link on social media and seeing an
+                    image, title, description, or other metadata displayed. This is an example of how OGD is
+                    incorporated into the &ltmeta&gt tag:</p>
+                <pre><code>&ltmeta property="og:image"
+    content="https://yourimageurl.png"&gt
+
+&ltmeta property="og:description"
+content="Some super cool and brief
+description of what can be found on
+your website."&gt
+
+&ltmeta property="og:title"
+content="Your Page Title"&gt</code></pre>
+                <p>Twitter has their own protocol for displaying metadata called Twitter Cards:</p>
+                <pre><code>&ltmeta name="twitter:title"
+content="Your Page Title"&gt</code></pre>
+                <a href="#top" class="btn">Back to top</a>
+            </section>
+            <section class="main-section" id="link">
+                <header>
+                    <h2><span class="h2-accent-4">&ltlink&gt</span> Tags</h2>
+                </header>
+                <p>This section will be add soon!</p>
+                <pre><code>&lthead&gt
+    &ltlink rel="stylesheet" href="main.css"&gt
+&lt/head&gt</code></pre>
+                <a href="#top" class="btn">Back to top</a>
+            </section>
+            <section class="main-section" id="script">
+                <header>
+                    <h2><span class="h2-accent-2">&ltscript&gt</span> Tags</h2>
+                </header>
+                <p>This section will be add soon!</p>
+                <pre><code>&lthead&gt
+    &ltscript src="script.js"&gt
+&lt/head&gt</code></pre>
+                <a href="#top" class="btn">Back to top</a>
+            </section>
+            <section class="main-section" id="section_7">
+                <header>
+                    <h2><span class="h2-accent-1">Section 7</span></h2>
+                </header>
+                <p>This section will be add soon!</p>
+                <pre><code>&lthead&gt
+&lt/head&gt</code></pre>
+                <a href="#top" class="btn">Back to top</a>
+            </section>
+            <section class="main-section" id="Section_8">
+                <header>
+                    <h2><span class="h2-accent-3">Section 8</span></h2>
+                </header>
+                <p>This section will be add soon!</p>
+                <pre><code>&lthead&gt
+&lt/head&gt</code></pre>
+                <a href="#top" class="btn">Back to top</a>
+            </section>
+            <section class="main-section" id="Section_9">
+                <header>
+                    <h2><span class="h2-accent-4">Section 9</span></h2>
+                </header>
+                <p>This section will be add soon!</p>
+                <pre><code>&lthead&gt
+&lt/head&gt</code></pre>
+                <a href="#top" class="btn">Back to top</a>
+            </section>
+            <section class="main-section" id="Section_10">
+                <header>
+                    <h2><span class="h2-accent-2">Section 10</span></h2>
+                </header>
+                <p>This section will be add soon!</p>
+                <pre><code>&lthead&gt
+&lt/head&gt</code></pre>
+                <a href="#top" class="btn">Back to top</a>
+            </section>
+            <section class="main-section" id="Section_11">
+                <header>
+                    <h2><span class="h2-accent-1">Section 11</span></h2>
+                </header>
+                <p>This section will be add soon!</p>
+                <pre><code>&lthead&gt
+&lt/head&gt</code></pre>
+                <a href="#top" class="btn">Back to top</a>
+            </section>
+            <section class="main-section" id="resources">
+                <header>
+                    <h2>Additional Resources</h2>
+                </header>
+                <p>This documentation is only an introduction to the &lthead&gt element and a helpful quick
+                    reference for development.
+                </p>
+                <p>For more information and the most current standards, I highly recommend the following resources:
+                </p>
+                <ul class="list-bullet">
+                    <li><a href="https://w3schools.com/html/html_head.asp#gsc.tab=0">W3Schools | HTML - The Head
+                            Element</a></li>
+                    <li><a
+                            href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML">Mozilla
+                            MDN Web Docs | What's in the Head? Metadata in HTML
+                        </a></li>
+                    <li><a href="https://bruceclay.com/blog/how-to-use-social-meta-tags/">Bruce Clay | What are
+                            Social Meta Tags? How to Control How Your Content Looks in Social Media Shares</a></li>
+                    <li>Resource 4</li>
+                    <li>Resource 5</li>
+                </ul>
+                <a href="#top" class="btn">Back to top</a>
+            </section>
+            <section class="main-section credits">
+                <p>By Developer Christa DeJesus</p>
+                <p><a href="https://christadejesus.com">christadejesus.com</a></p>
+            </section>
+        </main>
+    </div>
+</body>
+
+</html>
