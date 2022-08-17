@@ -142,9 +142,13 @@ code {
 
 @media screen and (min-width: 900px) {
     #container {
-        flex-direction: row;
+        display: block;
     }
 #navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    max-width: 300px;
     margin: initial;
     border-right: 3px solid var(--neutral-mdlt);
 }
@@ -152,10 +156,12 @@ code {
     height: 150px;
 }
 #nav-links {
-    width: 300px;
+    width: 100%;
     max-height: calc(100vh - 150px);
+    padding: 40px 40px;
 }
 #main-doc {
-    padding: 60px 40px 60px 0px;
+    margin-left: 300px;
+    padding: 60px 40px;
 }
 }
