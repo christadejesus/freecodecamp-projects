@@ -110,13 +110,13 @@ ul {
     margin-bottom: 40px;
     border-bottom: 1px solid var(--neutral-mdlt);
 }
-pre {
+.code-container {
+    display: flex;
     background: var(--neutral-lt);
     padding: 20px;
     margin-bottom: 40px;
-}
-code {
-    background: var(--neutral-lt);
+    overflow: hidden;
+    overflow-x: scroll;
 }
 .credits {
     border-bottom: none;
