@@ -12,13 +12,14 @@ I received my first two certifications in 2021 and currently working on my third
 
 My hope is that these projects will help another future developer on their journey. Feel free to contact me if you have any questions. I know how challenging the self-study journey can be when you're flying solo, so I'm happy to help you where I can!
 
-## Note:
+## Notes:
 
-This repo only holds the HTML/CSS/JS projects from the Responsive Web Design and JavaScript courses. You can find these and other freecodecamp projects here:
+1. This repo only holds the HTML/CSS/JS projects from the Responsive Web Design and JavaScript courses. You can find these and other freecodecamp projects here:
 
 - My portfolio website at [christadejesus.com](https://christadejesus.com)
 - [@indychrista github profile](https://github.com/indychrista)
 
+2.  Some projects have been revised or adapted from the original submission and may be further altered in the future. If you would like to view the current passing submission in the freecodecamp platform, you can visit [my profile here](https://freecodecamp.org/indychrista).
 <hr>
 
 ## Responsive Web Design
