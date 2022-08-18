@@ -4,9 +4,9 @@
 
 Welcome to my repository for freecodecamp developer certification projects!
 
-<image src="./assets/RWDcert.png" width="150"
+<image src="./assets/RWDcert.png" width="300"
 />
-<image src="./assets/JScert.png" width="145"/>
+<image src="./assets/JScert.png" width="290"/>
 
 I received my first two certifications in 2021 and currently working on my third, Front End Development Libraries. As I started in on this third set of projects, I wanted to create a space to hold all of the certification projects I had work so hard on. Unfortunately, I've lost some of the originals along the way, but have created new versions to have for my reference and yours!
 
