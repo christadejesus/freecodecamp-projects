@@ -27,7 +27,7 @@ h1 {
   text-transform: uppercase;
   letter-spacing: -0.1rem;
   color: var(--primary-1);
-  font-size: 3.8rem;
+  font-size: 3rem;
   font-weight: 800;
   line-height: 0.7;
   margin-top: 40px;
@@ -124,7 +124,7 @@ a:hover {
 }
 /* WELCOME SECTION */
 #welcome-section p {
-  font-size: 3rem;
+  font-size: 2.4rem;
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
@@ -246,8 +246,31 @@ a:hover {
   color: var(--primary-1);
 }
 
+
+/* FOOTER */
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 20px;
+    background: var(--neutral-mdlt);
+    font-size: 1rem;
+}
+footer i {
+    padding: 0px 5px;
+}
+.coffee {
+    color: var(--neutral-md);
+}
+
 /* MEDIA QUERIES */
 @media screen and (min-width: 600px) {
+    h1 {
+    font-size: 3.8rem;
+  }
+  #welcome-section p {
+  font-size: 3rem;
+  }
   body,
   .nav-link {
     font-size: 1.8rem;
@@ -257,6 +280,9 @@ a:hover {
   }
   .tile-grid {
     grid-template-columns: 1fr 1fr;
+  }
+  footer {
+    font-size: initial;
   }
 }
 @media screen and (min-width: 900px) {
@@ -278,21 +304,6 @@ a:hover {
     max-width: 700px;
     margin: 40px auto;
   }
-}
-
-/* FOOTER */
-footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 60px 20px;
-    background: var(--neutral-mdlt);
-}
-footer i {
-    padding: 0px 5px;
-}
-.coffee {
-    color: var(--neutral-md);
 }
 
 @media screen and (min-width: 1200px) {
