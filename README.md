@@ -28,7 +28,7 @@ My hope is that these projects will help another future developer on their journ
 - Survey Form - [demo](https://indychrista.github.io/freecodecamp-projects/ResponsiveWebDesign/SurveyForm/index.html) | [repo](https://github.com/indychrista/freecodecamp-projects/tree/main/ResponsiveWebDesign/SurveyForm)
 - Technical Documentation - [demo](https://indychrista.github.io/freecodecamp-projects/ResponsiveWebDesign/TechnicalDocumentation/index.html) | [repo](https://github.com/indychrista/freecodecamp-projects/tree/main/ResponsiveWebDesign/TechnicalDocumentation)
 - Tribute Page - [demo](https://indychrista.github.io/freecodecamp-projects/ResponsiveWebDesign/TributePage/index.html) | [repo](https://github.com/indychrista/freecodecamp-projects/tree/main/ResponsiveWebDesign/TributePage)
-- Personal Portfolio Page - [demo](https://indychrista.github.io/freecodecamp-projects/ResponsiveWebDesign/PortfolioPage/index.html) | [repo](https://github.com/indychrista/freecodecamp-projects/tree/main/ResponsiveWebDesign/PortfolioPage)
+- Personal Portfolio Page - [demo](https://indychrista.github.io/freecodecamp-projects/ResponsiveWebDesign/PersonalPortfolioPage/index.html) | [repo](https://github.com/indychrista/freecodecamp-projects/tree/main/ResponsiveWebDesign/PersonalPortfolioPage)
 
 <hr>
 
