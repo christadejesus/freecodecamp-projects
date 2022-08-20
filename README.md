@@ -34,7 +34,9 @@ My hope is that these projects will help another future developer on their journ
 
 ## JavaScript Algorithms & Data Structures
 
-- Being added soon!
+The following projects are expansions of the basic freecodecamp JS certification projects. Original submissions can be found by visiting [@indychrista](https://www.freecodecamp.org/certification/indychrista/javascript-algorithms-and-data-structures) on freecodecamp.
+
+- Palindrome Checker | Palindromic DNA Sequence Checker - [demo](https://indychrista.github.io/freecodecamp-projects/JavaScriptDSAlgorithms/PalindromeChecker/index.html) | [repo](https://github.com/indychrista/freecodecamp-projects/tree/main/JavaScriptDSAlgorithms/PalindromeChecker)
 
 <hr>
 
