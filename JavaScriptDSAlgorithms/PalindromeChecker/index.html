@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="og:title" content="Christa DeJesus | Palindromic DNA Sequence Checker">
+    <meta name="og:image" content="">
+    <meta name="og:url" content="">
+    <meta name="og:description"
+        content="A functional take on freecodecamp's Palindrome Checker project by developer Christa DeJesus.">
+    <title>Christa DeJesus | Palindromic DNA Sequence Checker</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a312657ba2.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Palindromic DNA<br>Sequence Checker</h1>
+        <a href="#checker" class="btn"><i class="fas fa-dna"></i> Check a Sequence</i></a>
+    </header>
+    <main>
+        <article>
+            <section id="intro" class="main-section">
+                <h2>What is a palindromic DNA sequence?</h2>
+                <p>The term <em>palindrome</em> refers to a sequence of characters which reads the same forward and
+                    backward. In genetics, <em>palindrome</em> takes on a different meaning when we compare the two
+                    strands of nucleotides included in a single molecule of DNA.</p>
+                <p>Each nucleotide is composed of one of four nucleobases, adenine (A), cytosine (C), guanine (G), or
+                    thymine (T), which binds to its complimentary pair on a second nucleotide strand. The nucleobase A
+                    always pairs with T, and C always pairs with G.</p>
+                <p>When the sequence of nucleobases is equal to its complimentary strand read backwards (see image
+                    below), it is said to be a palindromic DNA sequence.</p>
+                <div class="img-flex">
+                    <img src="assets/DNAsequence1.svg">
+                    <img src="assets/DNAsequence2.svg">
+                </div>
+            </section>
+            <section id="checker" class="accent-section">
+                <div id="checker-info">
+                    <h2>Is your DNA sequence palindromic?</h2>
+                    <p>Use the Palindromic DNA Sequence Checker below to test your sequence. Enter any sequence
+                        including A, T, C,
+                        or
+                        G to see the result.</p>
+                </div>
+                <form>
+                    <label for="testSequence">Enter your DNA sequence:</label>
+                    <input type="text" id="testSequence" name="testSequence" placeholder="type your sequence here">
+                    <input type="button" id="btn" class="btn" value="Check Now" onclick="testResult(this.form)">
+                    <div id="result-container">
+                        <label for="result">Result:</label>
+                        <div id="result"></div>
+                    </div>
+                </form>
+            </section>
+            <section id="testing-info" class="main-section">
+                <h2>Testing Tips</h2>
+                <ul>
+                    <li>A sequence such as "tggatcca" is a palindromic sequence.</li>
+                    <li>A sequence such as "tggacca" is NOT a palindromic sequence.</li>
+                    <li>The checker is not case sensitive.</li>
+                    <li>Spaces or characters other than the letters A,T,C, and G will return an error message.</li>
+                </ul>
+            </section>
+            <section id="contact">
+                <h2>Contact Us</h2>
+                <div class="connect">
+                    <a href="http://github.com/indychrista/" target="_blank" rel="noreferrer"><i
+                            class="fab fa-github contact-icon"></i></a>
+                    <a href="http://twitter.com/christa_dev" target="_blank" rel="noreferrer"><i
+                            class="fab fa-twitter contact-icon"></i></a>
+                    <a href="http://facebook.com/christa.dev" target="_blank" rel="noreferrer"><i
+                            class="fab fa-facebook contact-icon"></i></a>
+                </div>
+            </section>
+        </article>
+    </main>
+    <footer>
+        <p>This demo is an expansion of the freecodecamp Palindrome Checker project by developer Christa
+            DeJesus.</p>
+        <p>Visit <a href="https://christadejesus.com">christadejesus.com</a> for more design and development projects.
+        </p>
+    </footer>
+</body>
+
+</html>
