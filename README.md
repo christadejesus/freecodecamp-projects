@@ -17,31 +17,31 @@ My hope is that these projects will help another future developer on their journ
 1. This repo only holds the HTML/CSS/JS projects from the Responsive Web Design and JavaScript courses. You can find these and other freecodecamp projects here:
 
 - My portfolio website at [christadejesus.com](https://christadejesus.com)
-- [@indychrista github profile](https://github.com/indychrista)
+- [@christadejesus github profile](https://github.com/christadejesus)
 
-2.  Some projects have been revised or adapted from the original submission and may be further altered in the future. If you would like to view the current passing submission in the freecodecamp platform, you can visit [my profile here](https://freecodecamp.org/indychrista).
+2.  Some projects have been revised or adapted from the original submission and may be further altered in the future. If you would like to view the current passing submission in the freecodecamp platform, you can visit [my profile here](https://freecodecamp.org/christadejesus).
 <hr>
 
 ## Responsive Web Design
 
-- Product Landing Page - [demo](https://indychrista.github.io/freecodecamp-projects/ResponsiveWebDesign/ProductLandingPage/index.html) | [repo](https://github.com/indychrista/freecodecamp-projects/tree/main/ResponsiveWebDesign/ProductLandingPage)
-- Survey Form - [demo](https://indychrista.github.io/freecodecamp-projects/ResponsiveWebDesign/SurveyForm/index.html) | [repo](https://github.com/indychrista/freecodecamp-projects/tree/main/ResponsiveWebDesign/SurveyForm)
-- Technical Documentation - [demo](https://indychrista.github.io/freecodecamp-projects/ResponsiveWebDesign/TechnicalDocumentation/index.html) | [repo](https://github.com/indychrista/freecodecamp-projects/tree/main/ResponsiveWebDesign/TechnicalDocumentation)
-- Tribute Page - [demo](https://indychrista.github.io/freecodecamp-projects/ResponsiveWebDesign/TributePage/index.html) | [repo](https://github.com/indychrista/freecodecamp-projects/tree/main/ResponsiveWebDesign/TributePage)
-- Personal Portfolio Page - [demo](https://indychrista.github.io/freecodecamp-projects/ResponsiveWebDesign/PersonalPortfolioPage/index.html) | [repo](https://github.com/indychrista/freecodecamp-projects/tree/main/ResponsiveWebDesign/PersonalPortfolioPage)
+- Product Landing Page - [demo](https://christadejesus.github.io/freecodecamp-projects/ResponsiveWebDesign/ProductLandingPage/index.html) | [repo](https://github.com/christadejesus/freecodecamp-projects/tree/main/ResponsiveWebDesign/ProductLandingPage)
+- Survey Form - [demo](https://christadejesus.github.io/freecodecamp-projects/ResponsiveWebDesign/SurveyForm/index.html) | [repo](https://github.com/christadejesus/freecodecamp-projects/tree/main/ResponsiveWebDesign/SurveyForm)
+- Technical Documentation - [demo](https://christadejesus.github.io/freecodecamp-projects/ResponsiveWebDesign/TechnicalDocumentation/index.html) | [repo](https://github.com/christadejesus/freecodecamp-projects/tree/main/ResponsiveWebDesign/TechnicalDocumentation)
+- Tribute Page - [demo](https://christadejesus.github.io/freecodecamp-projects/ResponsiveWebDesign/TributePage/index.html) | [repo](https://github.com/christadejesus/freecodecamp-projects/tree/main/ResponsiveWebDesign/TributePage)
+- Personal Portfolio Page - [demo](https://christadejesus.github.io/freecodecamp-projects/ResponsiveWebDesign/PersonalPortfolioPage/index.html) | [repo](https://github.com/christadejesus/freecodecamp-projects/tree/main/ResponsiveWebDesign/PersonalPortfolioPage)
 
 <hr>
 
 ## JavaScript Algorithms & Data Structures
 
-The following projects are expansions of the basic freecodecamp JS certification projects. Original submissions can be found by visiting [@indychrista](https://www.freecodecamp.org/certification/indychrista/javascript-algorithms-and-data-structures) on freecodecamp.
+The following projects are expansions of the basic freecodecamp JS certification projects. Original submissions can be found by visiting [@christadejesus](https://www.freecodecamp.org/certification/christadejesus/javascript-algorithms-and-data-structures) on freecodecamp.
 
-- Palindrome Checker | Palindromic DNA Sequence Checker - [demo](https://indychrista.github.io/freecodecamp-projects/JavaScriptDSAlgorithms/PalindromeChecker/index.html) | [repo](https://github.com/indychrista/freecodecamp-projects/tree/main/JavaScriptDSAlgorithms/PalindromeChecker)
+- Palindrome Checker | Palindromic DNA Sequence Checker - [demo](https://christadejesus.github.io/freecodecamp-projects/JavaScriptDSAlgorithms/PalindromeChecker/index.html) | [repo](https://github.com/christadejesus/freecodecamp-projects/tree/main/JavaScriptDSAlgorithms/PalindromeChecker)
 
 <hr>
 
 ## Contact
 
-- Connect with [@indychrista](https://github.com/indychrista) on Github
+- Connect with [@christadejesus](https://github.com/christadejesus) on Github
 - Follow [@christa_dev](https://twitter.com/christa_dev) on Twitter
 - Follow   [@christa.dev](https://facebook.com/christa.dev/) on Facebook
