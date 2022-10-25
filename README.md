@@ -44,4 +44,4 @@ The following projects are expansions of the basic freecodecamp JS certification
 
 - Connect with [@christadejesus](https://github.com/christadejesus) on Github
 - Follow [@christa_dev](https://twitter.com/christa_dev) on Twitter
-- Follow   [@christa.dev](https://facebook.com/christa.dev/) on Facebook
+- Follow [@indychrista](https://codepen.io/indychrista) on Codepen
