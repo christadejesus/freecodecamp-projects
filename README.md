@@ -1,26 +1,15 @@
 # Freecodecamp Projects
 
 ## About this Repo
+Welcome to my repository for freeCodeCamp developer certification projects. In 2021, I earned the freeCodeCamp Responsive Web Design and JavaScript Algorithms and Data Structures Developer Certificates.  You can view my original project submissions on [freeCodeCamp](https://www.freecodecamp.org/christadejesus), but I wanted to create a space to hold them here as well.
 
-Welcome to my repository for freecodecamp developer certification projects!
+You are welcome to view the code, play around with the code, fix the code (this is code from my newbie days, afterall!), and find inspiration in the code for your own projects. Just please remember not to copy the code to claim as your own. If there's one thing I've learned on this journey it's that the only way to solidify what you're learning and truly grow as a developer is to build your own projects...and build a lot of them! 
+
+Happy hacking and good luck on your journey!
 
 <image src="./assets/RWDcert.png" width="300"
 />
 <image src="./assets/JScert.png" width="290"/>
-
-I received my first two certifications in 2021 and currently working on my third, Front End Development Libraries. As I started in on this third set of projects, I wanted to create a space to hold all of the certification projects I had work so hard on. Unfortunately, I've lost some of the originals along the way, but have created new versions to have for my reference and yours!
-
-My hope is that these projects will help another future developer on their journey. Feel free to contact me if you have any questions. I know how challenging the self-study journey can be when you're flying solo, so I'm happy to help you where I can!
-
-## Notes:
-
-1. This repo only holds the HTML/CSS/JS projects from the Responsive Web Design and JavaScript courses. You can find these and other freecodecamp projects here:
-
-- My portfolio website at [christadejesus.com](https://christadejesus.com)
-- [@christadejesus github profile](https://github.com/christadejesus)
-
-2.  Some projects have been revised or adapted from the original submission and may be further altered in the future. If you would like to view the current passing submission in the freecodecamp platform, you can visit [my profile here](https://freecodecamp.org/christadejesus).
-<hr>
 
 ## Responsive Web Design
 
@@ -32,16 +21,8 @@ My hope is that these projects will help another future developer on their journ
 
 <hr>
 
-## JavaScript Algorithms & Data Structures
+## JavaScript Algorithms and Data Structures
 
 The following projects are expansions of the basic freecodecamp JS certification projects. Original submissions can be found by visiting [@christadejesus](https://www.freecodecamp.org/certification/christadejesus/javascript-algorithms-and-data-structures) on freecodecamp.
 
 - Palindrome Checker | Palindromic DNA Sequence Checker - [demo](https://christadejesus.github.io/freecodecamp-projects/JavaScriptDSAlgorithms/PalindromeChecker/index.html) | [repo](https://github.com/christadejesus/freecodecamp-projects/tree/main/JavaScriptDSAlgorithms/PalindromeChecker)
-
-<hr>
-
-## Contact
-
-- Connect with [@christadejesus](https://github.com/christadejesus) on Github
-- Follow [@christa_dev](https://twitter.com/christa_dev) on Twitter
-- Follow [@indychrista](https://codepen.io/indychrista) on Codepen
